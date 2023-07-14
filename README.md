@@ -1,5 +1,4 @@
- [![Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![build](https://github.com/Gowthambalan/DIY_Framework-Free_N_Network/actions/workflows/manual-ci.yml/badge.svg)](https://github.com/Gowthambalan/DIY_Framework-Free_N_Network/actions/workflows/manual-ci.yml)[![PyPI](https://img.shields.io/pypi/v/DIY_Framework-Free_N_Network.svg)](https://pypi.python.org/pypi/DIY_Framework-Free_N_Network/#history)
-
+ [![Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 # NN-Without-Frameworks
 This project aims to implement different Neural Network configuration **without** using scientific frameworks like **TensorFlow** or **PyTorch**.
 
