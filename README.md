@@ -1,6 +1,10 @@
  [![Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-# NN-Without-Frameworks
+# DIY_Framework-Free_N_Network
 This project aims to implement different Neural Network configuration **without** using scientific frameworks like **TensorFlow** or **PyTorch**.
+
+About
+You will be able to learn more about the underlying math and algorithms of neural networks.
+
 
 Each network/config is implemented in 4 formats while trying to get the best of both worlds of TensorFlow (+ Keras) and PyTorch :
 1. In Python using NumPy
