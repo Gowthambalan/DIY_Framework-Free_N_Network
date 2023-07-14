@@ -1,4 +1,4 @@
- [![Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+ [![Welcome](https://img.shields.io/badge/welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 # DIY_Framework-Free_N_Network
 This project aims to implement different Neural Network configuration **without** using scientific frameworks like **TensorFlow** or **PyTorch**.
 
