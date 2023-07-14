@@ -1,0 +1,29 @@
+## TODOs
+- [x]  CI support by GitHub Actions
+- [ ] Sphinx Documentation
+- [ ] PyPI page
+- [x] Java language support for Regression
+- [x] CPP language Support for Regression
+- [x] Xavier and He initializers
+- [x] Batchnorm1d
+- [x] Regularization
+- [x] CNN support
+- [ ] Dropout
+- [ ] DQN
+- [x] Classification
+- [x] Docker Support
+- [x] Acknowledgements
+- [x] Invite to contribute
+- [x] Add maths references
+- [x]  Make the Readme more expressive
+- [ ]  Add Checkpoint saving & restoring
+- [ ] Add strassen matrix multiplication
+- [ ] Add GPU support (Numba)
+- [ ] Docstrings
+- [x] LSTM
+- [ ] Pooling
+- [ ] GlobalPooling
+- [ ] Layer Normalization
+- [ ] Global Pooling
+- [ ] Consistent tf like _summary_ function
+- [ ] _eval_ mode
