@@ -1,0 +1,42 @@
+name: build
+
+on:
+  [push, pull_request]
+
+jobs:
+
+  build:
+    name: compile files.
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [ubuntu-latest]
+
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install numpy matplotlib tabulate
+      run: pip install numpy matplotlib tabulate
+    - name: run train.py
+      run: python python_nn/train.py
+    - name: run DIY_Framework-Free_N_Network/train.py
+      run: python DIY_Framework-Free_N_Network/train.py
+    - name: sudo apt-get update && apt-get install -yq qt5-default
+      run: sudo apt-get update && sudo apt-get install -yq qt5-default
+    - name: mkdir -p cpp_nn/build
+      run: mkdir -p cpp_nn/build
+    - name: qmake .. && make
+      working-directory: cpp_nn/build
+      run: qmake .. && make
+    - name: ./cpp_nn
+      working-directory: cpp_nn/build
+      run: ./cpp_nn
+    - name: sudo apt-get update && apt-get install -yq openjdk-17-jdk
+      run: sudo apt-get update && sudo apt-get install -yq openjdk-17-jdk
+    - name: javac train.java
+      working-directory: java_nn/src
+      run: javac train.java
+    - name: java train
+      working-directory: java_nn/src
+      run: java train
